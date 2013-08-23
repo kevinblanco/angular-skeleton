@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="helloWorld">
+  <head>
+  	<meta name="description" content="Angular Getting Started Example">
+	  <meta name="author" content="Kevin Blanco">
+  	<link rel="stylesheet" href="css/main.css">
+    <title>Angular - Getting Started Example</title>
+  </head>
+  <body>
+    <div role="main">
+      <header class="hero-unit">
+        <div class="container">
+          <label>Name:</label>
+          <input type="text" ng-model="yourName" placeholder="Put your name here">
+          <hr>
+          <h1>Hello {{yourName}} from the AngularJS World!</h1>
+        </div>
+      </header>
+    </div>
+
+    <!-- Load the vendor and own app JS -->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

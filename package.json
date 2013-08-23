@@ -1,0 +1,28 @@
+{
+  "name": "angularjs-app-skeleton",
+  "description": "Basic AngularJS App Skeleton",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kevinblanco/angular-skeleton.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-sass": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-notify": "~0.2.11"
+  },
+  "contributors": [
+    {
+      "name": "Kevin Blanco",
+      "email": "me@kevin-blanco.com"
+    }
+  ]
+}
