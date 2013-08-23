@@ -25,7 +25,7 @@ Last, run the defaul task
 
     grunt run
 
-Then, follow the steps on the tutorial and slides.
+Then, you can visit your local server mounted by Grunt at localhost:3001
 
 ## Directory Structure ##
 
