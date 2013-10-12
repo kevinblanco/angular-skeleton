@@ -59,12 +59,12 @@ module.exports = function(grunt) {
     uglify: {
       vendor: {
         files: {
-          'public/js/vendor.min.js': [ SOURCES + 'scripts/vendor/angular.min.js', SOURCES + 'scripts/vendor/angular-bootstrap.min.js']
+           DIST + 'js/vendor.min.js': [ SOURCES + 'scripts/vendor/angular.min.js', SOURCES + 'scripts/vendor/angular-bootstrap.min.js']
         }
       },
       own:{
         files: {
-          'public/js/app.min.js': [ SOURCES + 'scripts/*.js']
+          DIST + 'js/app.min.js': [ SOURCES + 'scripts/*.js']
         }
       }
     },
@@ -175,19 +175,19 @@ module.exports = function(grunt) {
     regarde: {
 
       pages: {
-        files: 'src/html/**/*',
+        files: SOURCES +'html/**/*',
         tasks: ['copy:html', 'notify:pages', 'livereload']
       },
 
       scripts: {
         files: [
-          'src/scripts/**/*'
+          SOURCES + 'scripts/**/*'
         ],
         tasks: ['uglify', 'notify:scripts', 'livereload']
       },
 
       styles: {
-        files: 'src/styles/**/*',
+        files: SOURCES + 'styles/**/*',
         tasks: ['sass:local', 'notify:styles', 'livereload']
       }
     }
