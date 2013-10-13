@@ -56,7 +56,6 @@ Generate a local development build
 
 If you need more info, just contact me at:
 	
-	http://kevin-blanco.com
-	me@kevin-blanco.com
-	Skype: kevinblancok2
+	mail@kevinblanco.io
+	Skype: kevinblanco.io
 	@KevinBlancoZ
