@@ -1,8 +1,8 @@
 /**
  * @module     helloWorld
  * @desc       Main Project Angular Module.
- * @author     Kevin Blanco <kevin.blanco@popagency.com>
- * @repo       git@dev-vs-gitlab1:KevinBlanco/learning.git
+ * @author     Kevin Blanco <me@kevin-blanco.com>
+ * @repo       git@github.com:kevinblanco/angular-skeleton.git
  */
  
 angular.module('helloWorld', ['ui.bootstrap']);
